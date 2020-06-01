@@ -3,6 +3,3 @@ A simple 'scrollytelling' app showing differences in travel (flight trajectories
 
 ## Live Web App
 [NBA Travel Scrollytelling APP](https://josedv.shinyapps.io/scrollyNBATravel/)
-
-### GIF Image
-![](C:\Users\jfernandez\Downloads\scroll.gif)

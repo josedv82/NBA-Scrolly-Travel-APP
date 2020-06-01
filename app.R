@@ -18,7 +18,6 @@ library(feather)
 
 
 #import feathers####
-articles <- read_feather("article.feather")
 sche <- read_feather("sche.feather")
 acities <- read_feather("acities.feather")
 toronto <- c("Toronto", 43.65, -79.38) #for map
@@ -672,10 +671,6 @@ server <- function(input, output, session) {
   
   })
   
-  
-  
-  #reading material tab
-  #################################################
   
   #scrolling functionality
   output$scr <- renderScrollytell({scrollytell()})
